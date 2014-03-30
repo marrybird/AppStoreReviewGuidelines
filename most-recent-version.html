@@ -3,6 +3,7 @@
 
 <body id="placeholder2" class="as active-two sub-two secondary mac devcenter">
 	<div id="globalheader">
+	
 	<h1 data-hires="true"><a href="/">Apple Developer</a></h1>
 	<ul id="gh-nav">
 		<li id="gh-nav-technologies"><a href="/technologies/">Technologies</a></li>
@@ -12,14 +13,15 @@
 		<li id="gh-nav-membercenter"><a href="/membercenter/">Member Center</a></li>
 	</ul>
 
-	<div id="gh-search">
+	<div id="gh-search" data-hires="true">
 		<form action="/search/index.php" method="get" accept-charset="utf-8"><div>
 			<label for="gh-adcsearch">
 				<span class="prettyplaceholder"></span>
-				<input type="text" name="q" id="gh-adcsearch" class="adcsearch prettysearch">
+				<input type="text" name="q" id="gh-adcsearch" class="adcsearch prettysearch augmented">
 			</label>
 		</div></form>
 	</div>
+
 	<script type="text/javascript">
 		Event.onDOMReady(function() {
 			// Get root path for Global Header Active class
@@ -30,6 +32,7 @@
 			$$('body')[0].addClassName('gh-nav-'+location.pathname.split('/')[1]+'-active');
 		});
 	</script>
+	
 </div>
 
 	<div id="top">
@@ -99,7 +102,7 @@ var s_code=s.t();if(s_code)document.write(s_code)</script>
 										<li><a href="#charities-contributions">Charities and contributions</a></li>
 										<li><a href="#legal-requirements">Legal requirements</a></li>
 										<li><a href="#passbook">Passbook</a></li>
-										<li><a href="#kids-apps">Kids Apps</a></li>
+										<li><a href="#kids-category">Kids Category</a></li>
 									</ol>
 								</div>
 							</div>
@@ -171,7 +174,7 @@ var s_code=s.t();if(s_code)document.write(s_code)</script>
 								</li>
 								<li>
 									<h3>2.15</h3>
-									<p>Apps larger than 50MB in size will not download over cellular networks (this is automatically prohibited by the App Store)</p>
+									<p>Apps larger than 100MB in size will not download over cellular networks (this is automatically prohibited by the App Store)</p>
 								</li>
 								<li>
 									<h3>2.16</h3>
@@ -196,7 +199,7 @@ var s_code=s.t();if(s_code)document.write(s_code)</script>
 								</li>
 								<li>
 									<h3>2.21</h3>
-									<p>Apps that are simply a song or movie should be submitted to the iTunes store. Apps that are simply a book should be submitted to the iBookstore</p>
+									<p>Apps that are simply a song or movie should be submitted to the iTunes store. Apps that are simply a book should be submitted to the iBooks Store</p>
 								</li>
 								<li>
 									<h3>2.22</h3>
@@ -212,7 +215,7 @@ var s_code=s.t();if(s_code)document.write(s_code)</script>
 								</li>
 								<li>
 									<h3>2.25</h3>
-									<p>Apps that display Apps other than your own for purchase or promotion in a manner similar to or confusing with the App Store will be rejected, unless designed for a specific approved need (e.g. health management, aviation, accessibility, etc.)</p>
+									<p>Apps that display Apps other than your own for purchase or promotion in a manner similar to or confusing with the App Store will be rejected, unless designed for a specific approved need (e.g. health management, aviation, accessibility, etc.) or which provide significant added value for a specific group of customers</p>
 								</li>
 							</ul>
 
@@ -228,7 +231,7 @@ var s_code=s.t();if(s_code)document.write(s_code)</script>
 								</li>
 								<li>
 									<h3>3.3</h3>
-									<p>Apps with descriptions not relevant to the App content and functionality will be rejected</p>
+									<p>Apps with names, descriptions, or screenshots not relevant to the App content and functionality will be rejected</p>
 								</li>
 								<li>
 									<h3>3.4</h3>
@@ -280,7 +283,7 @@ var s_code=s.t();if(s_code)document.write(s_code)</script>
 								</li>
 								<li>
 									<h3>4.3</h3>
-									<p>Apps that use location-based APIs for dispatch, fleet management, or emergency services will be rejected</p>
+									<p>Apps that use location-based APIs for emergency services will be rejected</p>
 								</li>
 								<li>
 									<h3>4.4</h3>
@@ -300,7 +303,7 @@ var s_code=s.t();if(s_code)document.write(s_code)</script>
 								</li>
 								<li>
 									<h3>5.3</h3>
-									<p>Apps that send Push Notifications without first obtaining user consent will be rejected</p>
+									<p>Apps that send Push Notifications without first obtaining user consent, as well as apps that require Push Notifications to function, will be rejected</p>
 								</li>
 								<li>
 									<h3>5.4</h3>
@@ -421,7 +424,7 @@ var s_code=s.t();if(s_code)document.write(s_code)</script>
 								</li>
 								<li>
 									<h3>9.4</h3>
-									<p>Video streaming content over a cellular network longer than 10 minutes must use HTTP Live Streaming and include a baseline 64 kbps audio-only HTTP Live stream</p>
+									<p>Video streaming content over a cellular network longer than 10 minutes must use HTTP Live Streaming and include a baseline 64 kbps HTTP Live stream</p>
 								</li>
 							</ul>
 
@@ -429,15 +432,15 @@ var s_code=s.t();if(s_code)document.write(s_code)</script>
 							<ul class="subsection">
 								<li>
 									<h3>10.1</h3>
-									<p>Apps must comply with all terms and conditions explained in the <a href="/library/ios/documentation/UserExperience/Conceptual/MobileHIG/Introduction/Introduction.html">Apple iOS Human Interface Guidelines</a></p>
+									<p>Apps must comply with all terms and conditions explained in the <a href="/library/ios/documentation/userexperience/conceptual/mobilehig/">Apple iOS Human Interface Guidelines</a></p>
 								</li>
 								<li>
 									<h3>10.2</h3>
-									<p>Apps that look similar to Apps bundled on the iPhone, including the App Store, iTunes Store, and iBookstore, will be rejected</p>
+									<p>Apps that look similar to Apps bundled on the iPhone, including the App Store, iTunes Store, and iBooks Store, will be rejected</p>
 								</li>
 								<li>
 									<h3>10.3</h3>
-									<p>Apps that do not use system provided items, such as buttons and icons, correctly and as described in the <a href="/library/ios/documentation/UserExperience/Conceptual/MobileHIG/Introduction/Introduction.html">Apple iOS Human Interface Guidelines</a> may be rejected</p>
+									<p>Apps that do not use system provided items, such as buttons and icons, correctly and as described in the <a href="/library/ios/documentation/userexperience/conceptual/mobilehig/">Apple iOS Human Interface Guidelines</a> may be rejected</p>
 								</li>
 								<li>
 									<h3>10.4</h3>
@@ -489,7 +492,7 @@ var s_code=s.t();if(s_code)document.write(s_code)</script>
 								</li>
 								<li>
 									<h3>11.9</h3>
-									<p>Apps containing "rental" content or services that expire after a limited time will be rejected</p>
+									<p>Apps containing content or services that expire after a limited time will be rejected, except for specific approved content (e.g. films, television programs)</p>
 								</li>
 								
 								<li>
@@ -503,7 +506,7 @@ var s_code=s.t();if(s_code)document.write(s_code)</script>
 								</li>
 								<li>
 									<h3>11.12</h3>
-									<p>Apps offering subscriptions must do so using IAP, Apple will share the same 70/30 revenue split with developers for these purchases, as set forth in the <a href="/membercenter/index.action#agreements">Program License Agreement</a>.</p>
+									<p>Apps offering subscriptions must do so using IAP, Apple will share the same 70/30 revenue split with developers for these purchases, as set forth in the <a href="/membercenter/index.action#agreements">Program License Agreement</a></p>
 								</li>
 								<li>
 									<h3>11.13</h3>
@@ -619,7 +622,7 @@ var s_code=s.t();if(s_code)document.write(s_code)</script>
 								</li>
 								<li>
 									<h3>17.4</h3>
-									<p>Apps that collect, transmit, or have the capability to share personal information (e.g. name, address, email, location, photos, videos, drawings, persistent identifiers, the ability to chat, or other personal data) from a minor must comply with applicable children's privacy statutes</p>
+									<p>Apps that collect, transmit, or have the capability to share personal information (e.g. name, address, email, location, photos, videos, drawings, the ability to chat, other personal data, or persistent identifiers used in combination with any of the above) from a minor must comply with applicable children's privacy statutes</p>
 								</li>
 							</ul>
 
@@ -683,7 +686,7 @@ var s_code=s.t();if(s_code)document.write(s_code)</script>
 								</li>
 								<li>
 									<h3>21.2</h3>
-									<p>The collection of donations must be done via a web site in Safari or an SMS</p>
+									<p>The collection of charitable donations must be done via a web site in Safari or an SMS</p>
 								</li>
 							</ul>
 
@@ -723,7 +726,7 @@ var s_code=s.t();if(s_code)document.write(s_code)</script>
 								</li>
 								<li>
 									<h3>22.9</h3>
-									<p>Apps that calculate medicinal dosages must be submitted by the manufacturer of those medications or recognized institutions such as hospitals, insurance companies, and universities.</p>
+									<p>Apps that calculate medicinal dosages must be submitted by the manufacturer of those medications or recognized institutions such as hospitals, insurance companies, and universities</p>
 								</li>
 							</ul>
 
@@ -743,19 +746,19 @@ var s_code=s.t();if(s_code)document.write(s_code)</script>
 								</li>
 							</ul>
 
-							<h2 class="subhead" id="kids-apps">24. Kids Apps</h2>
+							<h2 class="subhead" id="kids-category">24. Kids Category</h2>
 							<ul class="subsection">
 								<li>
 									<h3>24.1</h3>
-									<p>Apps primarily intended for use by kids under 13 must include a privacy policy</p>
+									   <p>Apps primarily intended for use by kids must include a privacy policy and must comply with applicable children's privacy statutes</p>
 								</li>
 								<li>
 									<h3>24.2</h3>
-									<p>Apps primarily intended for use by kids under 13 may not include behavioral advertising (e.g. the advertiser may not serve ads based on the user's activity within the App), and any contextual ads presented in the App must be appropriate for kids</p>
+									<p>Apps primarily intended for use by kids may not include behavioral advertising (e.g. the advertiser may not serve ads based on the user's activity within the App), and any contextual ads presented in the App must be appropriate for kids</p>
 								</li>
 								<li>
 									<h3>24.3</h3>
-									<p>Apps primarily intended for use by kids under 13 must get parental permission or use a parental gate before allowing the user to link out of the app or engage in commerce</p>
+									<p>Apps primarily intended for use by kids must get parental permission or use a parental gate before allowing the user to link out of the app or engage in commerce</p>
 								</li>
 								<li>
 									<h3>24.4</h3>
@@ -788,10 +791,10 @@ var s_code=s.t();if(s_code)document.write(s_code)</script>
 		<div id="dn-cola" class="column first">
 			<h3><a href="/technologies/">Technologies</a></h3>
 			<ul>
-				<li><a href="/technologies/tools/">Developer Tools</a></li>
+				<li><a href="/xcode/">Developer Tools</a></li>
 				<li><a href="/technologies/ios/">iOS</a></li>
 				<li><a href="/technologies/mac/">OS X</a></li>
-				<li><a href="/technologies/safari/">Safari</a></li>
+				<li><a href="/safari/">Safari</a></li>
 			</ul>
 		</div><!--/dn-cola-->
 		<div id="dn-colb" class="column">
@@ -850,9 +853,9 @@ var s_code=s.t();if(s_code)document.write(s_code)</script>
 	<li><a href="/contact/">Contact Us</a></li>
 </ul>
 <div class="gf-sosumi">
-	<p>Copyright © 2013 Apple Inc. All rights reserved.</p>
+	<p>Copyright © 2014 Apple Inc. All rights reserved.</p>
 	<ul class="piped">
-		<li><a href="http://www.apple.com/legal/terms/site.html" class="first">Terms of Use</a></li>
+		<li><a href="http://www.apple.com/legal/internet-services/terms/site.html" class="first">Terms of Use</a></li>
 		<li><a href="http://www.apple.com/privacy/">Privacy Policy</a></li>
 	</ul>
 </div>
