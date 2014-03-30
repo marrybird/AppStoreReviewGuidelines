@@ -11,4 +11,4 @@ asrg-YYYY-MM-DD.html
 
 where Y's, M's, and D's are obviously dates.
 
-Check out the `most-recent-version.html` for a running diff of the most recent changes.
+Check out the `most-recent-version.html` for a [running diff](https://github.com/jaredsinclair/AppStoreReviewGuidelines/commits/master/most-recent-version.html) of the most recent changes.
