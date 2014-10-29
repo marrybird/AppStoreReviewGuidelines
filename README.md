@@ -6,7 +6,7 @@ Apple has not yet (as of September 3, 2014) included a version history on the re
 ## How it Works
 Check out the `most-recent-version.html` for a [running diff](https://github.com/jaredsinclair/AppStoreReviewGuidelines/commits/master/most-recent-version.html) of the most recent changes.
 
-## Contributing
+## Contributions
 This is a work in progress. Versions currently only date as far back as April 14, 2014. You can help by submitting older versions (if you happen to have them). 
 
 For lack of a more graceful solution, this is the process:
@@ -15,7 +15,7 @@ For lack of a more graceful solution, this is the process:
  3. Save the result in an HTML file with the naming scheme below, where Y's, M's, and D's are obviously dates.   
         asrg-YYYY-MM-DD.html
 
-## App Review
+## Common Rejections
 In addition to the App Store Review Guidelines you may want to take a look at Apple's new webpage, [*Common App Rejections*](https://developer.apple.com/app-store/review/rejections/).
 
 Good luck with your next app review! Hope this serves as a useful resource!
