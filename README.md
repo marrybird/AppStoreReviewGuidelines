@@ -1,5 +1,7 @@
-# AppStoreReviewGuidelines
-A version history of Apple's [App Store Review Guidelines](https://developer.apple.com/app-store/review/). Apple has not yet (as of September 3, 2014) included a version history on the review guidelines page. This project serves as a simple way to track changes in the App Store Guidelines. 
+# App Store Review Guidelines
+*A version history of Apple's [App Store Review Guidelines](https://developer.apple.com/app-store/review/).* 
+
+Apple has not yet (as of September 3, 2014) included a version history on the review guidelines page. This project serves as a simple way to track changes in the App Store Guidelines. 
 
 ## How it Works
 Check out the `most-recent-version.html` for a [running diff](https://github.com/jaredsinclair/AppStoreReviewGuidelines/commits/master/most-recent-version.html) of the most recent changes.
